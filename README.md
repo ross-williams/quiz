@@ -26,6 +26,27 @@ The longest compound word is "antidisestablishmentarianisms".
 It can be composed as "an" + "ti" + "dis" + "establishmentarian" + "isms".
 ```
 
+## A Shorter Solution
+
+22 January 2016
+
+I had an idea and managed to reduce my solution to 43 lines of Go code!
+This solution will only work if the input file contains only letters
+(or more specifically non pattern matching characters),
+but it works on the example input!
+
+The solution is implemented by the program `words_concise.go`.
+
+To run it, use the command:
+
+    go run words_concise.go word.list
+    
+It should yield the following output:
+
+```
+The longest compound word is "antidisestablishmentarianisms".
+```
+
 ## Comments On This Test
 
 * This test says it should take less than an hour. It took me about
